@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps{
-                bat 'dir'
+                bat 'javac PrintMessage.java'
             }
         }
     }
